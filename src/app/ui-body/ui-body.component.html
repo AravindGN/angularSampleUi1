@@ -1,0 +1,75 @@
+<div class="frame">
+    <!-- <video autoplay muted loop id="myVideo">
+        <source src="../../assets/Pexels.mp4" type="video/mp4">
+      </video> -->
+    <div class="frame1">
+        <div class="text">
+            <h1> Hello Martin!</h1>
+            <h5>Welcome to your overview of your account</h5>
+        </div>
+        <div class="list">
+            <select name="account" id="acount">
+                <option value="volvo">Select account</option>
+                <option value="saab">11112244</option>
+            </select>
+            <button class="panelbutton" type="button"> Launch ePanel</button>
+        </div>
+        
+    </div>
+    <div class="frame2">
+        <h3>My Products</h3>
+        <div>
+            <p>View all Products ></p>
+        </div>
+    </div>
+    <div class="frame3">
+        <app-ui-card *ngFor="let img of image" image={{img.image}} address="mywebsite.com" name={{img.Name}}></app-ui-card>
+        <div class="card"><button class="button">+Add new</button></div>
+    </div>
+    <div class="frame5">
+        <div class =tables>
+            <div class="tablehead">
+            <h3>Invoicing</h3>
+            <p>View all invoices ></p>
+        </div>
+        <table class="table1">
+            <tr>
+                <th>Invoice#</th>
+                <th>Package</th>
+                <th>Due Date</th>
+                <th>Total</th>
+            </tr>
+            <tr *ngFor="let item of table1">
+                <td>{{item.invoice}}</td>
+                <td>{{item.package}}</td>
+                <td>{{item.date}}</td>
+                <td>{{item.total}}</td>
+            </tr>
+        </table>
+    </div>
+    <div class =tables2>
+        <div class="tablehead">
+        <h3>Websites</h3>
+        <p>View all Websites ></p>
+    </div>
+        <table class="table2">
+            <tr>
+                <th>Domain name</th>
+                <th>Expiration</th>
+            </tr>
+            <tr *ngFor="let items of table2">
+                <td>{{items.domain}}</td>
+                <td>{{items.expiration}}</td>
+            </tr>
+        </table>
+    </div>
+    </div>
+    <div class="frame6">
+        <h3>Video Guides & Tips</h3>
+        <p>View All Videos ></p>
+    </div>
+    <div class="frame7">
+        <app-ui-vcard *ngFor="let item of items" Name={{item.Name}}></app-ui-vcard>
+    </div>
+
+</div>

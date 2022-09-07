@@ -1,0 +1,52 @@
+.frame{
+    
+    display: flex;
+    flex:100%;
+    background-color: white;
+    border: solid white;
+}
+.left{
+padding-left: 20px;
+    display:flex;
+    flex-wrap: wrap;
+    color:blue;
+    flex:20%;
+    justify-content: center;
+    flex-flow: row;
+}
+.middle{
+    padding-top: 20px;
+    display: flex;
+    font-size: larger;
+    flex:60%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+.right{
+    padding-right: 20px;
+    padding-top: 30px;
+    color: grey;
+    display: flex;
+    flex:20%;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+
+.mat-icon {
+    font-weight: bolder;
+  }
+
+.menu{
+    line-height: 40px;
+    border-radius: 12px;
+    border-color: solid white;
+    width: 130px;
+    height: 40px;
+    background-color: white;
+    text-align: center;
+
+}
+.menu:hover{
+    background-color: grey;
+}

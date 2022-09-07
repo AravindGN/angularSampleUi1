@@ -1,0 +1,24 @@
+.card{
+    width: 240px;
+    height:240px;
+    border-radius: 30px;
+    background-color:white;
+}
+
+p{
+    padding-left: 20px;
+    color: rgb(106, 106, 246);
+font-size: medium;
+text-align: left;
+}
+h4{
+    padding-left: 20px;
+    font-size: larger;
+    color: darkblue;
+}
+img{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    width:240px;
+    height:140px;
+}

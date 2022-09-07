@@ -1,0 +1,221 @@
+.frame {
+    background-color: rgb(234, 234, 238);
+    border: solid rgb(234, 234, 238);
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 50px; 
+}
+
+
+/* #myVideo {
+opacity:0.2;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  } */
+
+@media only screen and (max-width: 600px) {
+    .frame {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    
+}
+
+.frame1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.frame2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.frame3 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.frame4 {
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.frame5 {
+    width:100%;
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.frame6 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.frame7 {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+
+}
+
+.panelbutton {
+    border-radius: 12px;
+    width: 150px;
+    height: 40px;
+    color: white;
+    background-color: rgb(31, 31, 229);
+    border-color: rgb(31, 31, 229);
+    font-weight: bold;
+}
+
+.card {
+    width: 240px;
+    height: 240px;
+    border-radius: 30px;
+    background-image: url("../../assets/4.png");
+    background-size: 240px 240px;
+    background-color:rgb(31, 31, 229);
+
+}
+
+.button {
+    margin-top: 70px;
+    margin-left: 100px;
+    text-align: center;
+    color: rgb(31, 31, 229);
+    background-color: white;
+    border-radius: 12px;
+    border-color: white;
+    height: 40px;
+    width: 100px;
+    font-size: medium;
+    font-weight: bold;
+}
+
+select {
+    width: 150px;
+    height: 40px;
+    border-radius: 12px;
+    font-weight: bold;
+    border: white;
+    text-align: center;
+    margin-right: 20px;
+}
+.tablehead{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+h3 {
+    font-size: x-large;
+}
+
+p {
+    padding-top: 10px;
+    font-size: large;
+}
+
+.tables {
+    flex:60%;
+    width:100%;
+    overflow-x: scroll;
+    
+    
+}
+.tables::-webkit-scrollbar{
+    display: none;
+}
+.tables2::-webkit-scrollbar{
+    display: none;
+}
+.tables2 {
+    flex:35%;
+    overflow-x: scroll;
+    width:100%;
+
+
+}
+
+.table1 {
+    width: 100%;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    background-color: white;
+    height: auto;
+    border-radius: 15px;
+}
+
+.table2 {
+    width: 100%;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    background-color: white;
+    height: auto;
+    border-radius: 15px;
+}
+
+.table2 td {
+    color: black;
+}
+
+th {
+    padding-left: 20px;
+    text-align: justify;
+}
+
+
+
+td {
+    color: black;
+    padding-left: 20px;
+    text-align: justify;
+    font-weight: bold;
+    height: 40px;
+}
+
+td:nth-child(1) {
+    color: rgb(31, 31, 229);
+    font-weight: bold;
+
+}
+
+td:nth-child(3) {
+    color: rgb(217, 96, 96);
+    font-weight: bold;
+    background-color: rgb(239, 158, 158);
+    border-radius: 12px;
+}
+tr:nth-child(4) td:nth-child(3){
+    color:green;
+    background-color: lightgreen;
+    border-radius: 12px;
+}

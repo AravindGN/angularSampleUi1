@@ -1,5 +1,4 @@
 .frame{
-    
     display: flex;
     flex:100%;
     background-color: white;
@@ -12,7 +11,6 @@ padding-left: 20px;
     color:blue;
     flex:20%;
     justify-content: center;
-    flex-flow: row;
 }
 .middle{
     padding-top: 20px;
@@ -50,3 +48,27 @@ padding-left: 20px;
 .menu:hover{
     background-color: grey;
 }
+@media only screen and (max-width: 600px){
+    
+    .left{
+        flex: 30%;
+        justify-content: center;
+    }
+    
+    .middle{
+        flex:40%;
+        display:inline;
+        gap:10px;
+        justify-content: center;
+    }
+    .right{
+        flex:30%;
+        gap:10px;
+        display: inline;
+        justify-content: center;
+        padding-right: 0px;
+
+    }
+    
+    }
+    
